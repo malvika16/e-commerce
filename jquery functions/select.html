@@ -1,0 +1,27 @@
+<script src="jquery.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<style>
+  #a .ui-selecting
+  {
+    background:yellow;
+  }
+  #a .ui-selected
+  {
+    background:gray;
+  }
+  </style>
+
+  <script>
+    $(document).ready(function()
+    {
+      $("#a").selectable();
+    });
+    </script>
+
+    <body style="font-size:70%;">
+      <ul id="a">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+      </ul>

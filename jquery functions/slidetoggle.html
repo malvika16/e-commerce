@@ -1,0 +1,29 @@
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function)(){
+     $(".flip").click(function(){
+       $(".panel").slideToggle(1000);
+     });
+   });
+   </script>
+
+   <style>
+     div.panel,p.flip
+     {
+       margin:0px;
+       padding:5px;
+       text-align:centre;
+       background:yellow;
+       border:solid 1px blue;
+     }
+     div panel
+     {
+       height:180px
+     }
+     </style>
+     <div class="pannel">
+       username<input type=text ><br>
+       password<input type=text>
+         </div>
+
+         <p class="flip" style="font-size:1em;">show/hide panel</p>

@@ -1,0 +1,19 @@
+<html>
+<script src="jquery.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<style type="text/css">
+.selected {
+color:blue;
+
+}
+</style>
+<script>
+$(document).ready(function(){
+$("p").click(function(){
+$(this).toggleClass("selected",2000);
+})
+})
+</script>
+<p>click me to toggle selected class</p>
+<p>click me to toggle selected class</p>
+<p>click me to toggle selected class</p>
